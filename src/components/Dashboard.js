@@ -57,12 +57,12 @@ export class Dashboard extends React.PureComponent {
       <Container maxWidth="xl" className={classes.container} onScroll={this.handleScroll}>
         <Grid container spacing={2}>
           {pictures.map(picture => (
-            <Grid item sm={6} md={4} lg={3} key={picture.id}>
+            <Grid item xs={12} sm={6} md={4} lg={3} key={picture.id}>
               <PictureBox {...this.makePictureProp(picture)} />
             </Grid>
           ))}
           {isFetching && (
-            <Grid item sm={12} className={classes.progressContainer}>
+            <Grid item xs={12} className={classes.progressContainer}>
               <CircularProgress className={classes.progress} />
             </Grid>
           )}
