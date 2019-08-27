@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> should match snapshot 1`] = `
+<WithStyles(ForwardRef(Container))
+  maxWidth="xl"
+  onScroll={[Function]}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  />
+</WithStyles(ForwardRef(Container))>
+`;
+
+exports[`<Dashboard /> should match snapshot when loading 1`] = `
+<WithStyles(ForwardRef(Container))
+  maxWidth="xl"
+  onScroll={[Function]}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+    >
+      <WithStyles(ForwardRef(CircularProgress)) />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Container))>
+`;
