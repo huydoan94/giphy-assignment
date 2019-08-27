@@ -17,7 +17,7 @@
 The product Giphy View allows users to view Giphy images.
 
 ## Why React ?
-Please see here [a relative link](DOC.md)
+[Please see here](DOC.md)
 
 
 ## Getting Started
